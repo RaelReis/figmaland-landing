@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-white;
+    font-family: Poppins, sans-serif;
+  }
+}
+
+@layer utilities {
+  .hero-clip {
+    clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+    animation: top-down 0.8s ease-out;
+  }
+  .hero-content-animation {
+    animation: fade-in 0.8s ease-in;
+  }
+}
+
+@keyframes top-down {
+  from {
+    transform: translateY(-60%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
