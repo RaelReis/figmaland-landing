@@ -6,8 +6,8 @@ module.exports = {
       container: {
         center: true,
         padding: {
-          DEFAULT: "1rem",
-          sm: "2rem",
+          DEFAULT: "2rem",
+          sm: "3rem",
         },
         screens: {
           xl: "1210px",
@@ -18,6 +18,11 @@ module.exports = {
       },
       colors: {
         primary: "#2091F9",
+        base: {
+          title: "#252B42",
+          text: "#374754",
+          input: "#F4F4F4",
+        },
       },
     },
   },
