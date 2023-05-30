@@ -19,6 +19,23 @@
   }
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar {
+  width: 0.75rem;
+}
+::-webkit-scrollbar-thumb {
+  border: 1px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 9999px;
+  background-color: #252b42;
+}
+
 @keyframes top-down {
   from {
     transform: translateY(-60%);

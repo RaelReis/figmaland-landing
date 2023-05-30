@@ -24,6 +24,9 @@ module.exports = {
           input: "#F4F4F4",
         },
       },
+      boxShadow: {
+        video: "0 0 65px rgba(0,0,0,0.2)",
+      },
     },
   },
   plugins: [],
